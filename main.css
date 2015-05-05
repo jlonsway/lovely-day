@@ -1,0 +1,200 @@
+/* Lovely Day Main CSS */
+
+/* Reset browser defaults */
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, ol, li {
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #000000;
+}
+
+ul, ol, li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 0 auto 0 auto;
+}
+
+/* Basic element styling */
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #c799dd;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #888888;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #c799dd;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #888888;
+}
+
+/* Header and Navigation styles */
+
+header {
+	margin: 25px auto 0 auto;
+}
+
+header .logo {
+	margin: 0 auto 30px auto;
+	width: 900px;
+}
+
+nav {
+	border-bottom: 1px solid #cccccc;
+	width: auto;
+	padding-bottom: 9px;
+}
+
+nav ul {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+nav li {
+	display: inline;
+	font-family :Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-right: 1px;
+	padding: 10px;
+}
+
+nav li a {
+	color: #666666;
+}
+
+nav li:first-child {
+	background-color: #f4e5fb;
+}
+
+nav li:hover {
+	background-color: #f4e5fb;
+}
+
+/* Slider and Welcome styling */
+
+#one {
+	border-bottom: 1px solid #cccccc;
+	background-color: #efefef;
+	margin-bottom: 40px;
+	padding: 12px 0 8px 0;
+}
+
+.welcome {
+	margin: 0 auto 0 auto;
+	width: 900px;
+}
+
+.slider {
+	float: left;
+	margin-right: 40px;
+}
+
+.slider img {
+	border: 7px solid white;
+}
+
+.greeting {
+	margin: 0 auto 45px auto;
+	padding: 50px 0 20px 0;
+}
+
+.greeting h1, h2{
+	margin-bottom: 20px;
+}
+
+.button {
+	margin: 0 260px 10px 510px;
+	padding: 12px 25px 12px 25px;
+	border: solid 1px #888888;
+	border-radius: 5px;
+	background-color: #c799dd;
+}
+
+.button a {
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.button:hover {
+	background: linear-gradient(#dcbfea, #b070ce);
+}
+
+/* Main Content */
+
+#two {
+	border-bottom: 1px solid #cccccc;
+	height: 400px;
+}
+
+.boxes {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+#box-one, #box-two, #box-three {
+	float: left;
+	width: 266px;
+}
+
+#box-one, #box-two {
+	margin-right: 51px;
+}
+
+.boxes img {
+	border: solid 1px #666666;
+	margin-bottom: 15px;
+}
+
+.boxes h3 {
+	margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+	height: 65px;
+	background-color: #efefef;
+}
+
+footer p {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	padding-top: 20px
+}
+
+footer a {
+	font-size: 15px;
+	color: #333333;
+	
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #c799dd;
+}
